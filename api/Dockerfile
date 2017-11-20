@@ -1,4 +1,4 @@
-FROM node:8.9.1
+FROM mhart/alpine-node:8.9.1
 
 RUN mkdir /var/www
 ADD server /var/www/server
